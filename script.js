@@ -304,6 +304,7 @@ btnTransfer.addEventListener('click', function (e) {
 
     // Add date
     currentAccount.movementsDates.push(new Date().toISOString());
+    receiverAcc.movementsDates.push(new Date().toISOString());
 
     // Update UI
     updateUI(currentAccount);
@@ -350,7 +351,6 @@ btnClose.addEventListener('click', function (e) {
     const index = accounts.findIndex(
       acc => acc.username === currentAccount.username
     );
-    console.log(index);
 
     // Delete account
     accounts.splice(index, 1);
