@@ -10,7 +10,7 @@ An iteractive bank app that provides:
 ![bankist flowchart](./Bankist-flowchart.png)
 
 ## How to Use
-- Open the app [here]()
+- Open the app [here](https://ihsanramdhani.github.io/bankist/)
 - Login user 1:
 ```
 js
